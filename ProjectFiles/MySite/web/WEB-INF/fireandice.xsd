@@ -1,0 +1,28 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="gameofthrones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Title"/>
+        <xs:element type="xs:string" name="TitleName"/>
+        <xs:element type="xs:string" name="Description"/>
+        <xs:element name="houses" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="leader"/>
+              <xs:element type="xs:string" name="Family"/>
+              <xs:element type="xs:string" name="BreifHistory"/>
+              <xs:element type="xs:string" name="Hier1"/>
+              <xs:element type="xs:string" name="Hier2"/>
+              <xs:element type="xs:string" name="TheirWords"/>
+              <xs:element type="xs:string" name="SwornHouses"/>
+              <xs:element type="xs:string" name="Alliances"/>
+              <xs:element type="xs:string" name="Enemy"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

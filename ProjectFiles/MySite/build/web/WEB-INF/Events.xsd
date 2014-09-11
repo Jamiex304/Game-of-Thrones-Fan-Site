@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="gameofthrones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Title"/>
+        <xs:element type="xs:string" name="Event"/>
+        <xs:element type="xs:string" name="Involed"/>
+        <xs:element type="xs:string" name="Death1"/>
+        <xs:element type="xs:string" name="Death2"/>
+        <xs:element type="xs:string" name="Death3"/>
+        <xs:element type="xs:string" name="Death4"/>
+        <xs:element type="xs:string" name="Prelude"/>
+        <xs:element type="xs:string" name="Event"/>
+        <xs:element type="xs:string" name="Aftermath"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

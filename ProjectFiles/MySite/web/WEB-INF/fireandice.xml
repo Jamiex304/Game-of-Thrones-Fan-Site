@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gameofthrones>
+   <Title>Images/Logo.png</Title>
+   <TitleName>The Great Houses Of Westeros</TitleName>
+   <Description>The great houses of Westeros are the primary players in the 
+   political, economic, and military affairs of Westeros. There are eight great 
+   houses in the land; Arryn, Baratheon, Greyjoy, Lannister, Stark, 
+   Targaryen, Tully, and Tyrell. Each of these houses governs a specific region 
+   and has the allegiance of many lesser houses.</Description>
+   
+   <houses id="1">
+      
+       <name>House Stark</name>
+       <leader>Ned Stark(deceased)</leader>
+       <Family>Catelyn Stark, Benjen Stark</Family>
+       <BreifHistory>The Stark family traces its lineage back to the First Men, who 
+           landed in Westeros more than 10,000 years ago and eventually forged a lasting 
+           peace with the continent’s druidic natives, the Children of the Forest. The 
+           Starks still worship the Old Gods of their forebears at the heart tree in 
+           Winterfell.
+       </BreifHistory>
+         
+		 <Hiers>Robb Stark</Hiers>
+		 <TheirWords>Winter Is Coming</TheirWords>
+                 <SwornHouses>House Bolton, House Cerwyn, House Hornwood, House Karstark, House Mormont, House Umber</SwornHouses>
+            
+			<Alliances>House Baratheon and House Tully</Alliances>
+                        
+			   
+			   <Enemy>House Lannister, House Greyjoy and House Taragaryen</Enemy>
+		
+   </houses>
+   <houses id="2">
+      
+       <name>House Baratheon</name>
+       <leader>Robert Baratheon(deceased)</leader>
+       <Family>Cersei Baratheon, Stannis Baratheon and Renly Baratheon</Family>
+       <BreifHistory>The House of Baratheon was founded after the conquest of Aegon 
+           Targaryen by the conqueror's general (and rumored bastard brother) Orys Baratheon. 
+           More recently, following Robert's Rebellion, the Baratheons of Storm's End seized 
+           the Iron Throne from the Mad King Aerys Targaryen and have ruled the Seven 
+           Kingdoms since.
+       </BreifHistory>
+         
+		 <Hiers>Joffrey Baratheon</Hiers>
+		 <TheirWords>Ours Is the Fury</TheirWords>
+                 <SwornHouses>House Caron, House Swann</SwornHouses>
+            
+			<Alliances>House Stark and House Lannister</Alliances>
+                       
+			   <Enemy>House Targaryen</Enemy>
+			   
+   </houses>
+   <houses id="3">
+      
+       <name>House Lannister</name>
+       <leader>Tywin Lannister</leader>
+       <Family>Kevan Lannister, Dorna Lannister</Family>
+       <BreifHistory>The Lannisters descend in part from a group of Andals who 
+           invaded Westeros more than 6,000 years ago and settled at Casterly Rock. 
+           The family ruled as kings in their realm until the Targaryens brought 
+           dragons to conquer the continent, placing all the lords of Westeros under 
+           control of the Iron Throne.
+       </BreifHistory>
+         
+		 <Hier1>Ser Jaime Lannister</Hier1>
+                 <Hier2>Tyrion Lannister</Hier2>
+		 <TheirWords>Hear Me Roar</TheirWords>
+                 <SwornHouses>House Clegane, House CrakeHall, House Lefford, House Marbrand, House Swyft</SwornHouses>
+            
+			<Alliances>House Baratheon and House Tyrell</Alliances>
+			
+			   
+			   <Enemy>House Stark and House Tully</Enemy>
+			   
+			   
+   </houses>
+   <houses id="4">
+      
+       <name>House Tully</name>
+       <leader>Hoster Tully</leader>
+       <Family>Catelyn Tully and Lysa Tully</Family>
+       <BreifHistory>The principal house of the Riverlands, the Tullys of Riverrun 
+           rose to power during the Targaryen conquest. When the invaders attacked, 
+           Edmyn Tully rebelled against the King of the Isles, Harren the Black, and 
+           sided with Aegon Targaryen. Harren’s other supporters soon followed suit, 
+           paving the way for the new king.
+       </BreifHistory>
+         
+		 <Hiers>Edmure Tully</Hiers>
+		 <TheirWords>Family, Duty, Honor</TheirWords>
+                 <SwornHouses>House Blackwood, House Bracken, House Frey, House Mallister, House Whent</SwornHouses>
+            
+			<Alliances>House Stark and House Arryn</Alliances>
+
+			   
+			   <Enemy>House Lannister</Enemy>
+			   
+   </houses>
+   <houses>
+      
+       <name>House Arryn</name>
+       <leader>Jon Arryn(deceased)</leader>
+       <Family>Lysa Arryn, Alys Arryn(deceased) and Ronnel Arryn(deceased)</Family>
+       <BreifHistory>Located in the Vale, the Arryns serve as wardens of the East 
+           from their mountain stronghold, the Eyrie – a key defense against the violent
+           clans that surround their home. According to lore, the Andal knight Ser 
+           Artys Arryn took the Vale from the First Men, fighting from the back of a 
+           giant falcon.
+       </BreifHistory>
+         
+		 <Hiers>Robin Arryn</Hiers>
+		 <TheirWords>As High as Honor</TheirWords>
+                 <SwornHouses>House Baelish and House Royce</SwornHouses>
+            
+			<Alliances>House Tully and House Stark</Alliances>
+			
+			
+			   
+			   <Enemy>House Lannister</Enemy>
+			   
+   </houses>
+   <houses id="6">
+      
+       <name>House Targaryen</name>
+       <leader>Daenerys Targaryen</leader>
+       <Family>Viserys Taragaryen(deceased) and Khal Drogo(deceased)</Family>
+       <BreifHistory>The Targaryens came from the ancient civilization of Valyria, 
+           bringing dragons from the eastern continent and settling on the island of 
+           Dragonstone. After an unknown disaster known as the Doom of Valyria wiped 
+           out their homeland and killed most of the world’s dragons, the Targaryens 
+           invaded Westeros.
+       </BreifHistory>
+         
+		 <Hiers>None</Hiers>
+		 <TheirWords>Fire and Blood</TheirWords>
+                 <SwornHouses>None</SwornHouses>
+            
+			<Alliances>None</Alliances>
+			
+			
+			   
+			   <Enemy>All Great Houses of Westeros</Enemy>
+			   
+   </houses>
+   <houses id="7">
+      
+       <name>House Tyrell</name>
+       <leader>Mace Tyrell</leader>
+       <Family>Olenna Tyrell, Alerie Tyrell and Margaery Tyrell</Family>
+       <BreifHistory>For centuries, the Tyrells served and occasionally intermarried
+           with House Gardener, the ancient family of the King of the Reach. But after 
+           the Targaryen conquest eliminated the Gardeners, the Tyrells bent the knee 
+           to the Iron Throne – and then rose to become principal house and warden of 
+           the South at Highgarden.
+       </BreifHistory>
+         
+		 <Hiers>Loras Tyrell</Hiers>
+		 <TheirWords>Growing Strong</TheirWords>
+                 <SwornHouses>House Redwyne</SwornHouses>
+            
+			<Alliances>House Baratheon</Alliances>
+			
+			   
+			   <Enemy>House Lannister, House Baratheon(of Storm's End) and House Martell </Enemy>
+			
+			   
+   </houses>
+   <houses id="8">
+      
+       <name>House Greyjoy</name>
+       <leader>Balon Greyjoy</leader>
+       <Family>Yara Greyjoy, Alannys Greyjoy, Rodrik Greyjoy and Maron Greyjoy</Family>
+       <BreifHistory>House Greyjoy's power dates back to the great Grey King during 
+           the Age of Heroes. Legend has it that the Grey King ruled the sea itself and 
+           took a mermaid for his wife. After the Targaryen conquest, the people of the 
+           Iron Islands chose the Greyjoys to serve as lords from Pyke.
+       </BreifHistory>
+         
+		 <Hiers>Theon Greyjoy (Formally Thanks to Lord Bolton's Son)</Hiers>
+		 <TheirWords>We Do Not Sow</TheirWords>
+                 <SwornHouses>None</SwornHouses>
+            
+			<Alliances>None</Alliances>
+			
+			
+			   
+			   <Enemy>All Great House of Westeros</Enemy>
+			   
+   </houses>
+   
+   
+</gameofthrones>

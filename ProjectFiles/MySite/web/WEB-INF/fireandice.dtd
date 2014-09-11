@@ -1,0 +1,17 @@
+
+<!ELEMENT Alliances ( #PCDATA ) >
+<!ELEMENT BreifHistory ( #PCDATA ) >
+<!ELEMENT Description ( #PCDATA ) >
+<!ELEMENT Enemy ( #PCDATA ) >
+<!ELEMENT Family ( #PCDATA ) >
+<!ELEMENT Hier1 ( #PCDATA ) >
+<!ELEMENT Hier2 ( #PCDATA ) >
+<!ELEMENT SwornHouses ( #PCDATA ) >
+<!ELEMENT TheirWords ( #PCDATA ) >
+<!ELEMENT Title ( #PCDATA ) >
+<!ELEMENT TitleName ( #PCDATA ) >
+<!ELEMENT gameofthrones ( Title, TitleName, Description, houses+ ) >
+<!ELEMENT houses ( name, leader, Family, BreifHistory, Hiers, TheirWords, SwornHouses, Alliances, Enemy ) ><!ATTLIST houses id NMTOKEN #IMPLIED >
+
+<!ELEMENT leader ( #PCDATA ) >
+<!ELEMENT name ( #PCDATA ) >

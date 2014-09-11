@@ -1,0 +1,98 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Review Forum</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'/>
+        <style type="text/css">
+            #preview
+            {
+                margin: 20px;
+                padding: 10px;
+                width: 405px;
+                border-style:double;
+            }
+            input
+            {
+                margin-right: 5px;
+            }
+            #text
+            {
+                color:black;
+                font-family:UnifrakturMaguntia;
+                font-style:italic;
+            }
+        </style>
+        <script type="text/javascript" src="addingajax.js">
+        </script>
+        <script type="text/javascript">
+//<![CDATA[
+
+            aaManageEvent(window, "load", function() {
+                aaManageEvent(document.getElementById('comment'), "keyup", echoPreview)
+            });
+
+// echo keypress
+            function echoPreview(evnt) {
+                var commentText = document.getElementById("comment").value;
+                modText = commentText.split(/\n/).join("<br />");
+
+                var previewElem = document.getElementById("preview");
+                previewElem.innerHTML = modText;
+            }
+//]]>
+        </script>
+    </head>
+    <body bgcolor="black" > 
+    <center>
+        <img width="550" height="150" src="Images/Logo.png"/>
+        <br />
+        <div id="MainScroll" style="height:778px;width:500px;background-repeat:no-repeat;background-image:url('Images/LoginScroll.png');">
+            <br />
+            <br />
+            <br />
+            <br />
+            <div id="Information" style="height:600px;width:470px">
+                <h3 id="text">Help us improve by telling us what you thought</h3>
+                <form>
+                    <table>
+                        <tr>
+                            <td><h2 id="text"><label for="Name">Name : </label></h2></td>
+                            <td><input type="text" placeholder="Full Name" name="account" value="" size="53"/></td>
+                        </tr>
+                        <tr>
+                            <td><h2 id="text"><label for="Email">Email : </label></h2></td>
+                            <td><input type="email" placeholder="email@address.com" size="53"/></td>
+                        </tr>
+                    </table>
+                    <h2 id="text"><label for="comment">Review Comments : </label></h2>
+                    <textarea id="comment" name="comment" placeholder="The Lannisters send their regards" cols="50" rows="5"></textarea><br />
+                    <div id="preview">
+                    </div>
+                    <h4 id="text">Hit submit to give us your feed back and to return to the main page </h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="image" src="Images/Submitbtn.png" alt="Submit" width="200" height="70"/>
+                            </td>                        
+                        </tr>
+                    </table>
+                </form>
+                <table>
+                    <tr>
+                    <td>
+                        <form action ="Logout">
+                            <input type="image" src="Images/Logoutbtn.png" alt="submit" width="200" height="70"/>
+                        </form> 
+                    </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

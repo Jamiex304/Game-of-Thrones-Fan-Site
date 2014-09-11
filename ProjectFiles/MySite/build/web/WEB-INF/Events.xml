@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<gameofthrones>
+    <Title>Images/Logo.png</Title>
+    <EventName>The Red Wedding</EventName>
+    <Involed>House Stark, House Tully, House Frey and House Lannister</Involed>
+    <Death1>Robb Stark</Death1>
+    <Death2>Catelyn Stark</Death2>
+    <Death3>Talisa Stark</Death3>
+    <Death4>The Northern Army</Death4>
+    <Prelude>King Robb was lulled into a sense of security by Walder Frey 
+        because he had extended Guest right to the Starks. 
+        The betrayal was scheduled to occur after the formal ceremony and the 
+        bedding, with Edmure and Roslin safely away in another part of the 
+        castle to consummate their marriage.
+        The door of the great hall is closed and barred by Black Walder. 
+        Meanwhile, Roose Bolton and his men were to position themselves around 
+        the hall, secretly armed and armored. The signal for massacre to begin 
+        was for the musicians to play an instrumental version of The Rains of 
+        Castamere.
+    </Prelude>
+    <Event>
+        At Walder Frey's signal, Talisa is stabbed by Lame Lothar and the Northern 
+        leadership with Robb Stark gathered 
+        in the main hall is fired upon from the balcony by a group of assassins 
+        armed with crossbows who were disguised as musicians during the wedding. 
+        After the first volley the Northern guests are attacked in the main hall 
+        by armed Frey and Bolton men.
+        Meanwhile, Frey and Bolton men turn on the other Northern soldiers in the 
+        camps who had been heavily drinking during the celebrations, taking them 
+        completely by surprise.
+        Robb, while wounded with several crossbow bolts, is still able to get back 
+        onto his feet.
+        At this point, Roose Bolton personally kills Robb by stabbing him through 
+        the heart while saying "the Lannisters send their regards".Catelyn then 
+        remains silent, staring at Robb's corpse in shock and utter despair, not 
+        reacting as her own throat is slit from behind by Black Walder Frey.
+    </Event>
+    <Aftermath>Not only is Robb Stark himself killed in the betrayal, but the 
+        entire Northern army that Robb Stark led to southern Westeros is also 
+        destroyed - save only for those forces of House Karstark which had 
+        earlier abandoned Robb to return home, and the forces of House Bolton 
+        which turn on the other Northern Houses. Thus the Red Wedding ends 
+        the conflict between House Stark and House Lannister in a decisive 
+        victory for King Joffrey Baratheon and House Lannister. The War of 
+        the Five Kings continues, however, as Balon Greyjoy still fights for 
+        the Iron Islands' independence and Stannis Baratheon continues to 
+        dispute Joffrey Baratheon's right to the Iron Throne.
+    </Aftermath>
+</gameofthrones>

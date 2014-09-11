@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>The Great Houses</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'>
+        <script type="text/javascript">
+            function bigImg(x)
+            {
+                x.style.height = "400px";
+                x.style.width = "200px";
+            }
+
+            function normalImg(x)
+            {
+                x.style.height = "370px";
+                x.style.width = "190px";
+            }
+
+        </script>
+        <style>
+            #Body
+            {
+                background-repeat:no-repeat;
+                background-size:100%;
+                background-image:url('Images/MaybeBack.jpg');
+                text-align:center;
+            }
+            #text
+            {
+                color:black;
+                font-family:UnifrakturMaguntia;
+                font-style:italic
+            }
+        </style>
+    </head>
+    <body id="Body">
+        <br />
+        <h1 id="text">
+            The Great Houses of Westeros are at War
+            <br />
+            <br />
+            all Want the Iron Throne
+            <br />
+            <br />
+            But Only One Will Claim it
+        </h1>
+
+        <form action ="MainPageServlet">
+            <input onmouseover="bigImg(this)" onmouseout="normalImg(this)" type="image" src="Images/KingsHandbtn.png" alt="Submit" width="190" height="370"/>
+        </form>
+        <br />
+        <br />
+        <br />
+    </body>
+</html>

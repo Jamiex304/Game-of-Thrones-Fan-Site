@@ -1,0 +1,12 @@
+
+<!ELEMENT Aftermath ( #PCDATA ) >
+<!ELEMENT Death1 ( #PCDATA ) >
+<!ELEMENT Death2 ( #PCDATA ) >
+<!ELEMENT Death3 ( #PCDATA ) >
+<!ELEMENT Death4 ( #PCDATA ) >
+<!ELEMENT EventName ( #PCDATA ) >
+<!ELEMENT Involed ( #PCDATA ) >
+<!ELEMENT Event ( #PCDATA ) >
+<!ELEMENT Prelude ( #PCDATA ) >
+<!ELEMENT Title ( #PCDATA ) >
+<!ELEMENT gameofthrones ( Title, Event, Involed, Death1, Death2, Death3, Death4, Prelude, Event, Aftermath ) >

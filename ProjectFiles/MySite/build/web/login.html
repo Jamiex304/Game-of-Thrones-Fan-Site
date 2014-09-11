@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style type="text/css">
+            .formlabel{
+                text-align:right;
+                font-weight: bold;
+                font-style:italic;
+            }
+            table{
+                border: 0;
+            }
+            #text
+            {
+                color:black;
+                font-family:UnifrakturMaguntia;
+                font-style:italic;
+            }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'/>
+    </head>
+    <body bgcolor="Black">
+    <center>
+        <img width="550" height="150" src="Images/Logo.png"/>
+        <div style="height:778px;width:500px;background-repeat:no-repeat;background-image:url('Images/LoginScroll.png');">
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1 id="text">Review Login</h1>
+            <h3 id="text">
+                To review our site please use the guest account
+                <br/>
+            </h3>
+            <table>
+                <tr>
+                    <td><h3>Account : guest</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Password : password</h3></td>
+                </tr>
+            </table>
+
+
+            <form action="LoginHandler" method="POST">
+                <table>
+                    <tr>
+                        <td colspan="2">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p class="formlabel">Account:</p>
+                        </td>
+                        <td>
+                            <p><input type="text" name="account" value="" size="15"/></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p class="formlabel">Password:</p>
+                        </td>
+                        <td>
+                            <p><input type="password" name="password" value="" size="15"/></p>
+                        </td>
+                    </tr>                                                            
+                    <tr>
+                        <td colspan="2">
+                            <br />
+                            <input type="image" src="Images/Loginbtn.png" alt="Submit" width="200" height="70"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+</html>    
